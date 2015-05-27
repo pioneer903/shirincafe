@@ -1,0 +1,21 @@
+
+#From  localhost to server
+# need to double check
+
+UPDATE wp_options SET option_value = replace(option_value, 'http://shirincafe.webbuha.com', 'localhost/shirincafe/') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+#UPDATE wp_posts SET post_content = replace(post_content, 'http://shirincafe.webbuha.com', 'localhost/shirincafe');
+
+#UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://shirincafe.webbuha.com', 'localhost/shirincafe');
+
+
+
+
+#From server to localhost
+# need to double check
+#UPDATE `shirin_cafe`.`wp_options` SET `option_value` = '/shirincafe/' WHERE `wp_options`.`option_id` = 1;
+UPDATE wp_options SET option_value = replace(option_value, 'http://shirincafe.webbuha.com', 'shirincafe') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+UPDATE wp_posts SET post_content = replace(post_content, 'http://shirincafe.webbuha.com', '');
+
+UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://shirincafe.webbuha.com', '');

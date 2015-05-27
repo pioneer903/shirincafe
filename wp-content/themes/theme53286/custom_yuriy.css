@@ -1,0 +1,926 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Yuriy Added */
+
+
+
+/* Main background color: 
+  #330000 or rgba(51, 0, 0)
+  Text color (golden):
+  color: #f2ce87;
+*/
+
+
+body{
+  color: #f2ce87;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjk3Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjExJSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg4JSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk0JSIgc3RvcC1jb2xvcj0iIzMzMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjgzIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMzAwMDAiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  rgba(51,0,0,0.65) 0%, rgba(51,0,0,0.97) 10%, rgba(51,0,0,1) 11%, rgba(51,0,0,1) 50%, rgba(51,0,0,1) 51%, rgba(51,0,0,1) 88%, rgba(51,0,0,0.83) 94%, rgba(51,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(51,0,0,0.65)), color-stop(10%,rgba(51,0,0,0.97)), color-stop(11%,rgba(51,0,0,1)), color-stop(50%,rgba(51,0,0,1)), color-stop(51%,rgba(51,0,0,1)), color-stop(88%,rgba(51,0,0,1)), color-stop(94%,rgba(51,0,0,0.83)), color-stop(100%,rgba(51,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(51,0,0,0.65) 0%,rgba(51,0,0,0.97) 10%,rgba(51,0,0,1) 11%,rgba(51,0,0,1) 50%,rgba(51,0,0,1) 51%,rgba(51,0,0,1) 88%,rgba(51,0,0,0.83) 94%,rgba(51,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(51,0,0,0.65) 0%,rgba(51,0,0,0.97) 10%,rgba(51,0,0,1) 11%,rgba(51,0,0,1) 50%,rgba(51,0,0,1) 51%,rgba(51,0,0,1) 88%,rgba(51,0,0,0.83) 94%,rgba(51,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(51,0,0,0.65) 0%,rgba(51,0,0,0.97) 10%,rgba(51,0,0,1) 11%,rgba(51,0,0,1) 50%,rgba(51,0,0,1) 51%,rgba(51,0,0,1) 88%,rgba(51,0,0,0.83) 94%,rgba(51,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(51,0,0,0.65) 0%,rgba(51,0,0,0.97) 10%,rgba(51,0,0,1) 11%,rgba(51,0,0,1) 50%,rgba(51,0,0,1) 51%,rgba(51,0,0,1) 88%,rgba(51,0,0,0.83) 94%,rgba(51,0,0,0.65) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6330000', endColorstr='#a6330000',GradientType=1 ); /* IE6-8 */
+  font-family: "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #f2ce87;
+  text-transform: capitalize;
+  padding-top: 0;
+}
+@media screen and (max-width: 760px) { /* its weird, but the images disappear at 760px*/
+  header.header .header_wrapper{
+    padding-top: 45px;
+  }
+}
+.color-gold-light{
+  color: #ffffcc;
+}
+.color-gold{
+  color: #f2ce87;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+.container{
+  border-left: 1px solid #a6713c;
+  border-right: 1px solid #a6713c;
+  /*width: 1170px;*/
+}
+header .container{
+  border-top: 1px solid #a6713c;
+  margin-top:3px;
+}
+
+header.header {
+ background-color: #330000;
+}
+
+
+/* Screens bigger than 980px */
+@media screen and (min-width: 980px) {
+  .header .container{
+    background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/top_left.gif), 
+                      url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/top_right.gif);
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+  }  
+  .container,
+  .span12:first-child{
+    width: 99%;
+  }
+  .logo img{
+    /*width: 100%;*/
+  }
+}
+
+
+
+/* Screens smaller than 1120px */
+@media screen and (max-width: 1120px) {
+  #divSliderMain{
+    width: 90% !important;
+    margin: auto;
+  }
+  .container,
+  .row,
+  .span12{
+    width: 99%;
+    margin: auto;
+  }
+
+}
+
+/* Smaller than 1200px */
+@media (max-width: 1200px){ 
+  .cherry-fixed-layout .main-holder{
+    max-width: none;
+  }
+}
+  
+/* Smaller than 767px */
+@media (max-width: 767px){
+  body.cherry-fixed-layout .header, 
+  body.cherry-fixed-layout .content-holder, 
+  body #motopress-main.main-holder  {
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+  body.cherry-fixed-layout .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer .span3{
+    margin-top: -40px;
+  }
+}
+
+
+header.header .header_wrapper,
+.logo_box{
+  /* background-color:  rgba(51, 0, 0, 0.8); */
+  background: transparent;
+  width: 100%;
+  margin-left: 0;
+  left: 0;
+}
+
+.logo, .logo.pull-left {
+  text-align: center;
+  float: none;
+  margin: 0;
+  max-width: 100%;
+  background:  transparent;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.cherry-fixed-layout header.header .static_box {
+  float: none;
+  margin-right: 0;
+  text-align: center;
+  position: absolute;
+  width: 94%;
+  top: -10px;
+  z-index: 99;
+}
+
+
+.home header.header{
+  border-bottom: none;
+}
+.shop_box {
+  display:none
+}
+
+.sf-menu {
+  float: none;
+}
+
+.nav__primary{
+  top: 0;
+}
+@media(min-width:480px){
+  .nav__primary {
+    z-index: 100;
+    /*top: -155px;*/
+  }
+}
+
+.nav__primary .sf-menu {
+  float: none;
+  display: inline-block;
+}
+ul#topnav {
+  margin-left: -210px;
+  margin-top: 200px;
+}
+
+.select-menu:focus,
+select.select-menu {
+  top: 5px;
+  height: 45px;
+  background-color:  rgba(51, 0, 0, 0.8);
+  border: 1px solid #f2ce87;
+  color: #f2ce87;
+}
+
+/* Navigation items */
+.menu-item.menu-item-type-post_type.menu-item-object-page{
+  height: 50px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+/* Navigation: Home */
+li#menu-item-57 {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/home.gif);
+  width: 100px;
+  /*left: 75px;*/
+  left: 0;
+}
+li#menu-item-57 a{
+  width: 50px;
+  height: 50px;
+  left: -37px;
+  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  padding-right: 100px;
+}
+li#menu-item-57:hover {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/home-o.gif);
+}
+
+/* Navigation: Menu */
+li#menu-item-56 {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/menu.gif);
+  width: 120px;
+  /*left: 75px;*/
+  left: 0;
+}
+li#menu-item-56 a{
+  height: 50px;
+  width: 50px;
+  left: -14px;
+  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  padding-right: 100px;
+}
+li#menu-item-56:hover {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/menu-o.gif);
+}
+
+/* Navigation: About */
+li#menu-item-55 {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/about.gif);
+  width: 120px;
+  /*left: 195px;*/
+  left: 265px;
+}
+li#menu-item-55 a{
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background-position: right;
+  padding-left: 120px;
+}
+li#menu-item-55:hover {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/about-o.gif);
+}
+
+/* Navigation: Contact */
+li#menu-item-54 {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/contact.gif);
+  width: 120px;
+ /* left: 210px;*/
+  left: 280px;
+}
+li#menu-item-54 a{
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background-position: right;
+  padding-left: 118px;
+  z-index: 100;
+}
+li#menu-item-54:hover {
+  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/contact-o.gif);
+}
+#menu-item-67{
+  display: none;
+}
+/* Screens smaller than 980px and bigger than 760px */
+@media screen and (max-width: 980px) and (min-width: 760px){
+  /* Home */
+  li#menu-item-57 {
+    left: 80px;
+  }
+  
+  /* Menu */
+  li#menu-item-56 {
+    left: 20px;
+    top: 50px;
+  }
+
+  /* Contact */
+  li#menu-item-54 {
+    left: 80px;
+    top: 50px;
+  }
+
+  /* About */
+  li#menu-item-5 {
+    left: 295px;
+  }
+
+
+}
+
+
+/* Navigation: Shopping cart */
+/*.menu-item.menu-item-type-post_type.menu-item-object-page*/
+.page-id-45 li#menu-item-68 {
+  text-indent: 0;
+  left: 130px;
+  padding-top: 12px;
+}
+.page-id-45 li#menu-item-68 i{
+  font-size: 1.4em;
+}
+
+
+
+
+
+/* Slider */
+/* Parallax slider */
+.parallax-slider {
+  height: 250px;  
+}
+div.parallax-slider.zoom-fade-eff {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border-left: 5px solid rgba(51, 0, 0, 0.5);
+  /*border-width: 20px;
+  -webkit-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
+       -o-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
+          border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;*/
+}
+/* Huge IT Slider */
+/* Huge IT Slideshow puts CSS inside of HTML file. Need to override it somehow */
+// Slideshow dots to the bottom of the slider 
+.huge_it_slideshow_dots_thumbnails_1 {
+  bottom: 0px;
+}
+
+.huge_it_slideshow_dots_1{
+  margin: 1px;
+}
+
+
+
+.page p{
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.page .woocommerce {
+  padding-left: 30px !important;
+}
+
+/* Home page */
+.home .text-center {
+  font-size: 1em;
+  margin-top: 50px;
+}
+.home article {
+  display: inline-block;
+  width: 300px;
+  min-height: 83px;
+  border-style: solid;
+  border-width: 0px 0px 8px;
+  -moz-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  -webkit-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  -o-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  /* Border generated at https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CDIQFjAC&url=http%3A%2F%2Fborder-image.com%2F&ei=-e1HVdLJHcawsATi5YHgDQ&usg=AFQjCNHGCdXLVm5c-karzDg-Q90hw3QR2A&sig2=v5tVgjwZ3v2cPU_P_m5PaA&bvm=bv.92291466,d.cWc */
+}
+
+.home article{
+    width: 250px;
+
+}
+/* Screens Bigger than value */
+@media (min-width: 530px){
+  .home article{
+    /*width: 300px;*/
+    border-width: 8px 0px 8px;
+  }
+}
+@media (min-width: 635px){
+  .home article{
+    width: 300px;
+  }
+}
+@media (min-width: 935px){
+  .home article{
+    width:350px;
+    margin: 0 50px;
+  }
+}
+@media (min-width: 950px){
+  .home .text-center{
+    padding-right: 2%;
+  }
+}
+
+/*.home .text-center .span4:before{
+  content: "{";
+  font-size: 143px;
+  font-family: 'Old Standard TT', serif;
+  position: absolute;
+  left: -10px;
+  top: 35px;
+}
+.home .text-center .span4:after{
+  content: "}";
+  font-size: 143px;
+  font-family: 'Old Standard TT', serif;
+  position: absolute;
+  right: -10px;
+  top: 35px;
+} 
+*/
+/* Products */
+/*.title-section {
+  border-bottom: 1px solid #f2ce87;
+}
+body #motopress-main.main-holder .content-holder ul.products.list{
+  padding-right: 30px;  
+}
+body #motopress-main.main-holder .content-holder ul.products.list li.product {
+  padding-top: 0;
+  background: transparent;
+  border-bottom: 1px solid #f2ce87;
+}
+body #motopress-main.main-holder .content-holder ul.products.list li.product >a img[class*="attachment"]{
+  width: 150px !important;
+}
+body #motopress-main.main-holder .content-holder ul.products.list li.product h3{
+  float: left !important;
+  padding-top: 0;
+  padding-left: 0;
+  margin-top: -35px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+ul.products.list li.product div[itemprop="description"]{
+  width: 37% !important;
+  float: left !important;
+  padding-top: 22px;
+}
+body #motopress-main.main-holder .content-holder ul.products.list li.product >a .price,
+ul.products.list li.product .gridlist-buttonwrap{
+  float:right !important;
+  width: 125px !important;
+}
+*/
+
+
+
+/******************
+  MENU & Products 
+******************/
+
+.title-section {
+  padding: 25px 0 25px 50px;
+  border: none;
+}
+.page-template-page-fullwidth .title-section{
+  display: none;
+}
+.page.has_shop #content{
+  padding-top: 10px;
+}
+
+/* Menu Navigation */
+.menu_navigation{
+  top: 0px;
+}
+.menu_navigation ul{
+  list-style: none;
+  text-align: center;
+}
+.menu_navigation ul li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+.menu_navigation a {
+  font-size: 1.2em;
+  padding: 5px;
+  border-bottom: 1px solid;
+}
+.menu_navigation a:link,
+.menu_navigation a:active,
+.menu_navigation a:visited,
+.menu_navigation a:hover{
+  text-decoration: none;
+}
+
+  
+@media(min-width: 680px){
+  .menu_navigation ul li {
+    display: inline;
+    padding: 20px;
+  }
+  .menu_navigation a {
+    font-size: 2em;
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
+}
+
+.fa-shopping-cart{
+  color: #f2ce87;
+}
+.fa-shopping-cart:hover{
+  color: #ffffcc;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  background: #330000;
+  padding-top: 20px;
+}
+.sticky.menu_navigation{
+  z-index: 120;
+  width: 100%;
+  left: 0;  
+  border-bottom: 1px solid;
+}
+.sticky.menu_navigation a{
+  border-bottom: none;
+}
+.sticky.fa-shopping-cart{
+  right: 20px;
+  z-index: 121;
+}
+
+/* Menu List */
+.menu_list .category_heading{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: none;
+}
+.menu_list .category_heading a{
+  color: #f2ce87;
+}
+.menu_list h3.category_heading{
+  font-size: 1.6em;
+  padding-top: 100px;
+}
+h4.category_heading{
+  font-size: 1.5em;
+  color: #ffffcc;
+}
+
+
+/* Menu dividers */
+.divider{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.divider ul{
+  list-style: none;
+  text-align: center;
+}
+.divider ul li{
+  display: inline;
+}
+
+
+/* Restyle default grid view to list view */
+body #motopress-main.main-holder .content-holder ul.products{
+    margin-left: 145px !important;
+  }
+@media(min-width: 980px){
+
+  body #motopress-main.main-holder .content-holder ul.products li.product{
+    width: 100% !important;
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+  }
+  body #motopress-main.main-holder .content-holder ul.products li.product .star-rating{
+    display: none;
+  }
+  body #motopress-main.main-holder .content-holder ul.products li.product h3{
+    float: left;
+    width: 38%;
+    font-size: 1.5em;
+    display: inline !important;
+    padding: 10px 0 0 0;
+    margin-bottom: 10px;
+    color: #ffffcc;
+    /*margin-top: 50px;*/
+  }
+  body #motopress-main.main-holder .content-holder ul.products li.product >a .price{
+    text-align: right;
+    display: inline-block;
+    width: 13%;
+    margin-top: 50px;
+  }
+
+
+  body #motopress-main.main-holder .content-holder ul.products li.product >a .price span.amount{
+    /*padding-right: 40px;*/
+  }
+
+  body #motopress-main.main-holder .content-holder ul.products li.product >a img[class*="attachment"]{
+    width: 153px !important;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  body #motopress-main.main-holder .content-holder ul.products li.product .short_desc {
+    display: block;
+    width: 19%;
+    top: 50px;
+    position: absolute;
+    left: 150px;
+  }
+
+  body #motopress-main.main-holder .content-holder ul.products li.product .button,
+  body #motopress-main.main-holder .widget_shopping_cart_content a.button,
+  .woocommerce ul.products li.product .button{
+    background: #4c0000;
+    border: 1px solid #ffffcc;
+    color: #ffffcc;
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+  .woocommerce ul.products li.product .button:before{
+    content: none;
+  }
+
+  body #motopress-main.main-holder .content-holder ul.products li.product .button,
+  body #motopress-main.main-holder a.button.add_to_cart_button.product_type_simple,
+  .woocommerce ul.products li.product .button  {
+    width: 135px;
+  }
+
+  body #motopress-main.main-holder a.button:hover,
+  body #motopress-main.main-holder .content-holder ul.products li.product .button:hover{ 
+    background: #330000;
+  }
+
+  body #motopress-main.main-holder a.button.compare{
+    width: 200px;
+  }
+}
+
+
+/* Banquets */
+.banquets {
+  margin-top: 60px;
+}
+.banquets .separator-doubled{
+  display: none;
+}
+.banquets .span5 .banquet-menu{
+  padding-left: 40px;
+}
+.banquets .span7{
+  margin-top: 30px;
+}
+.banquets .category_heading,
+.banquets ul li{
+  text-align: center;
+}
+.banquets ul{
+  margin: 0;
+}
+.banquets h3{
+  font-size: 1.8em;
+  padding-bottom: 30px;
+}
+.banquets h4{
+  font-size: 1.3em;
+}
+.additional-pictures .span4 {
+  text-align: center;
+}
+
+/* Lightbox/Colorbox */
+/* Remove border around the colorbox */
+#colorbox:focus {
+  outline: none;
+}
+a img.aligncenter{
+  /*border: 3px solid #a6713c;*/
+  /*border: 3px solid #ffffcc;*/
+  border: 3px solid #f2ce87;
+}
+
+/* Product details */
+.woocommerce div.product{
+  padding-left: 30px;
+}
+body #motopress-main.main-holder .content-holder div.product .summary{
+  width: 50%;
+}
+.woocommerce #content .quantity input.qty{
+  height: 33px;
+}
+body #motopress-main.main-holder .content-holder div.product div.panel{
+  border-color: #a6713c ;
+  background: transparent;
+}
+#respond h3,
+#reply-title{
+  font-size: 20px !important;
+  color: #ffffcc;
+}
+label[for="rating"]{
+  padding-right: 10px;
+}
+body .content-holder .woocommerce-message a.button:before, body .content-holder div.jigoshop_message a.button:before{
+  background: transparent;
+}
+body #motopress-main.main-holder .woocommerce-message a.button{
+  text-indent: -9999px;  
+}
+
+@media (max-width: 1199px) and (min-width: 980px){
+  body #motopress-main.main-holder .content-holder ul.products li.product .short_desc {
+    width: 20%;
+  }
+}
+
+@media (max-width: 780px){
+  body #motopress-main.main-holder .content-holder ul.products li.product .button,
+  body #motopress-main.main-holder a.button.add_to_cart_button.product_type_simple,
+  .woocommerce ul.products li.product .button  {
+    width: 200px;
+    top: 50px;
+    right: -187px;
+  }
+}
+.title-header{
+  color: #f2ce87;
+  display: none;
+}
+
+/* Hide Add to wishlist button */
+.product-list-buttons{
+  display: none;
+}
+/* Hide .gridlist-toggle button*/
+.gridlist-toggle{
+  /*display: none !important;*/
+}
+
+
+/* Cart page */
+.cart_totals p small{
+  display: none;  
+}
+body #motopress-main.main-holder #content .page table.shop_table tbody tr td,
+body #motopress-main.main-holder #content .page .shop_table,
+body #motopress-main.main-holder #content .page div.cart-collaterals .cart_totals table,
+body #motopress-main.main-holder #content .page div.cart-collaterals .cart_totals table tr th,
+body #motopress-main.main-holder #content .page div.cart-collaterals .cart_totals table tr td{
+  border-color: #a6713c ;
+}
+body #motopress-main.main-holder #content .page .shop_table tr th,
+body #motopress-main.main-holder #content .page div.cart-collaterals .cart_totals table tr th{
+  background-color: #4c0000;
+
+}
+body #motopress-main.main-holder #content .page .shop_table tr td{
+  /*background-color: #7C2323;*/
+}
+/* Buttons */
+body #motopress-main.main-holder #content .page form table.cart .actions .button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+body #motopress-main.main-holder button.button,
+body #motopress-main.main-holder .content-holder div.product div .tabs li a,
+body #motopress-main.main-holder input[type="submit"],
+body #motopress-main.main-holder a.button{
+  background: #4c0000 !important;
+  border: 1px solid #ffffcc !important;
+  color: #ffffcc !important;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+textarea,
+body #motopress-main.main-holder #content form .form-row input.input-text, 
+body #motopress-main.main-holder #content form .form-row textarea, 
+body #motopress-main.main-holder #content form select, 
+body #motopress-main.main-holder #content .chzn-container input[type="text"], 
+body #motopress-main.main-holder #container form .form-row input.input-text, 
+body #motopress-main.main-holder #container form .form-row textarea, 
+body #motopress-main.main-holder #container form select, 
+body #motopress-main.main-holder #container .chzn-container input[type="text"],
+.select2-drop-mask,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty, 
+.woocommerce-page #content .quantity input.qty, 
+.woocommerce-page .quantity input.qty,
+body #motopress-main.main-holder #content .page form table.cart .actions #coupon_code {
+  background-color: #ffffcc !important;
+}
+
+/* Contact page */
+.wpcf7-form input{
+  width: 96%;
+}
+.map p{
+  padding-top: 20px;
+}
+
+
+/* Checkout Page */
+body .content-holder .woocommerce-info,
+body .content-holder .woocommerce-message, 
+body .content-holder div.jigoshop_message{
+  background: #D46A6A;
+  width: 80%;
+  margin-left: 20px !important;
+}
+li.method {
+  width: 46%;
+}
+.shop_table.order_details tfoot tr:nth-child(3){
+  display: none;
+}
+.product-total small,
+.shop_table.order_details small{
+  display: none;
+}
+#post-29 .woocommerce p{
+  padding-left: 0;
+}
+.order_details li{
+  margin-top: 20px;
+}
+
+/* About page */
+.about-text{
+  width: 80%;
+  margin: auto;
+}
+
+/* Footer */
+.home footer.motopress-wrapper.footer .span3 .textwidget{
+  margin-top: -20px;
+}
+.textwidget .small{
+  font-size: .8em;
+}
+.textwidget a:link,
+.textwidget a:visited{
+  color: #f2ce87;
+}
+
+footer.motopress-wrapper.footer {
+  background: #330000;
+}
+
+.span5.footer-logo{
+  visibility: hidden;
+}
+
+footer .container{
+  background-image: 
+    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_left.gif),
+    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_index.gif), 
+    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_right.gif);
+  background-position: left bottom, center bottom, right bottom;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #a6713c;
+  margin-bottom: 3px;
+}
+footer.footer{
+  padding-bottom: 3px;
+}
+
+footer.footer .copyright,
+footer.footer .copyright:before,
+footer.footer .copyright:after{
+  border: none;
+}
+
+footer.footer .span3{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin-left: 0px;
+}
+footer.footer .span3:after {
+  content: "";
+  width: 0px;
+}
+
+.footer-widgets .span3:first-child,
+.footer-widgets .span3:nth-child(2),
+.footer-widgets .span3:nth-child(3){
+  display: none;
+  border: none;
+}
+
+
+#footer-text {
+  display: none; 
+}
+
+
+
