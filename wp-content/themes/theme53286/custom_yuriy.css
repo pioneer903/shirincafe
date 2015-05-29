@@ -75,8 +75,8 @@ header.header {
 /* Screens bigger than 980px */
 @media screen and (min-width: 980px) {
   .header .container{
-    background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/top_left.gif), 
-                      url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/top_right.gif);
+    background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/top_left.gif), 
+                      url(http://localhost/shirincafe/wp-content/uploads/2015/04/top_right.gif);
     background-position: left top, right top;
     background-repeat: no-repeat;
   }  
@@ -213,7 +213,7 @@ select.select-menu {
 
 /* Navigation: Home */
 li#menu-item-57 {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/home.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/home.gif);
   width: 100px;
   /*left: 75px;*/
   left: 0;
@@ -222,16 +222,16 @@ li#menu-item-57 a{
   width: 50px;
   height: 50px;
   left: -37px;
-  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background: url(http://localhost/shirincafe/wp-content/uploads/2015/04/star.gif) no-repeat;
   padding-right: 100px;
 }
 li#menu-item-57:hover {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/home-o.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/home-o.gif);
 }
 
 /* Navigation: Menu */
 li#menu-item-56 {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/menu.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/menu.gif);
   width: 120px;
   /*left: 75px;*/
   left: 0;
@@ -240,16 +240,16 @@ li#menu-item-56 a{
   height: 50px;
   width: 50px;
   left: -14px;
-  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background: url(http://localhost/shirincafe/wp-content/uploads/2015/04/star.gif) no-repeat;
   padding-right: 100px;
 }
 li#menu-item-56:hover {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/menu-o.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/menu-o.gif);
 }
 
 /* Navigation: About */
 li#menu-item-55 {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/about.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/about.gif);
   width: 120px;
   /*left: 195px;*/
   left: 265px;
@@ -258,17 +258,17 @@ li#menu-item-55 a{
   width: 50px;
   height: 50px;
   left: 0px;
-  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background: url(http://localhost/shirincafe/wp-content/uploads/2015/04/star.gif) no-repeat;
   background-position: right;
   padding-left: 120px;
 }
 li#menu-item-55:hover {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/about-o.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/about-o.gif);
 }
 
 /* Navigation: Contact */
 li#menu-item-54 {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/contact.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/contact.gif);
   width: 120px;
  /* left: 210px;*/
   left: 280px;
@@ -277,13 +277,13 @@ li#menu-item-54 a{
   width: 50px;
   height: 50px;
   left: 0px;
-  background: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/star.gif) no-repeat;
+  background: url(http://localhost/shirincafe/wp-content/uploads/2015/04/star.gif) no-repeat;
   background-position: right;
   padding-left: 118px;
   z-index: 100;
 }
 li#menu-item-54:hover {
-  background-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/contact-o.gif);
+  background-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/contact-o.gif);
 }
 #menu-item-67{
   display: none;
@@ -320,7 +320,8 @@ li#menu-item-54:hover {
 /*.menu-item.menu-item-type-post_type.menu-item-object-page*/
 .page-id-45 li#menu-item-68 {
   text-indent: 0;
-  left: 130px;
+  left: 260px;
+  top: -205px;
   padding-top: 12px;
 }
 .page-id-45 li#menu-item-68 i{
@@ -342,9 +343,9 @@ div.parallax-slider.zoom-fade-eff {
   margin: auto;
   border-left: 5px solid rgba(51, 0, 0, 0.5);
   /*border-width: 20px;
-  -webkit-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
-       -o-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
-          border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;*/
+  -webkit-border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
+       -o-border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;
+          border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/04/border_top.gif) 30 5 33 3 repeat stretch;*/
 }
 /* Huge IT Slider */
 /* Huge IT Slideshow puts CSS inside of HTML file. Need to override it somehow */
@@ -367,6 +368,7 @@ div.parallax-slider.zoom-fade-eff {
   padding-left: 30px !important;
 }
 
+
 /* Home page */
 .home .text-center {
   font-size: 1em;
@@ -378,10 +380,10 @@ div.parallax-slider.zoom-fade-eff {
   min-height: 83px;
   border-style: solid;
   border-width: 0px 0px 8px;
-  -moz-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
-  -webkit-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
-  -o-border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
-  border-image: url(http://shirincafe.webbuha.com/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  -moz-border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  -webkit-border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  -o-border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
+  border-image: url(http://localhost/shirincafe/wp-content/uploads/2015/05/golden-borders-dividers.png) 27 1 26 0 stretch;
   /* Border generated at https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CDIQFjAC&url=http%3A%2F%2Fborder-image.com%2F&ei=-e1HVdLJHcawsATi5YHgDQ&usg=AFQjCNHGCdXLVm5c-karzDg-Q90hw3QR2A&sig2=v5tVgjwZ3v2cPU_P_m5PaA&bvm=bv.92291466,d.cWc */
 }
 
@@ -480,6 +482,16 @@ ul.products.list li.product .gridlist-buttonwrap{
 }
 .page.has_shop #content{
   padding-top: 10px;
+}
+
+/* Screens greater than value */
+@media(min-width: 1120px){
+  .page.post-45 .motopress-wrapper.content-holder {
+    /*padding-right: 45px;*/
+  }
+  .menu_list {
+    padding-right: 50px;
+  }
 }
 
 /* Menu Navigation */
@@ -582,11 +594,19 @@ h4.category_heading{
 
 
 /* Restyle default grid view to list view */
-body #motopress-main.main-holder .content-holder ul.products{
+@media(max-width:979px){
+  body #motopress-main.main-holder .content-holder ul.products li.product >a .price,
+  #motopress-main.main-holder .content-holder ul.products li.product >a .price{
+    color: #330000;
+  }  
+}
+
+
+/* Screens bigger than 980px */
+@media(min-width: 979px){
+  body #motopress-main.main-holder .content-holder ul.products{
     margin-left: 145px !important;
   }
-@media(min-width: 980px){
-
   body #motopress-main.main-holder .content-holder ul.products li.product{
     width: 100% !important;
     background: transparent;
@@ -611,6 +631,7 @@ body #motopress-main.main-holder .content-holder ul.products{
     display: inline-block;
     width: 13%;
     margin-top: 50px;
+    color: #ffffcc;
   }
 
 
@@ -740,15 +761,7 @@ body #motopress-main.main-holder .woocommerce-message a.button{
   }
 }
 
-@media (max-width: 780px){
-  body #motopress-main.main-holder .content-holder ul.products li.product .button,
-  body #motopress-main.main-holder a.button.add_to_cart_button.product_type_simple,
-  .woocommerce ul.products li.product .button  {
-    width: 200px;
-    top: 50px;
-    right: -187px;
-  }
-}
+
 .title-header{
   color: #f2ce87;
   display: none;
@@ -880,9 +893,9 @@ footer.motopress-wrapper.footer {
 
 footer .container{
   background-image: 
-    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_left.gif),
-    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_index.gif), 
-    url(http://shirincafe.webbuha.com/wp-content/uploads/2015/04/bottom_right.gif);
+    url(http://localhost/shirincafe/wp-content/uploads/2015/04/bottom_left.gif),
+    url(http://localhost/shirincafe/wp-content/uploads/2015/04/bottom_index.gif), 
+    url(http://localhost/shirincafe/wp-content/uploads/2015/04/bottom_right.gif);
   background-position: left bottom, center bottom, right bottom;
   background-repeat: no-repeat;
   border-bottom: 1px solid #a6713c;
