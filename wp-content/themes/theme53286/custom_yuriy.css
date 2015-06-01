@@ -130,6 +130,9 @@ header.header {
   footer .span3{
     margin-top: -40px;
   }
+  footer.footer{
+    padding: 0px;
+  }
 }
 
 
@@ -358,6 +361,18 @@ div.parallax-slider.zoom-fade-eff {
   margin: 1px;
 }
 
+.span4{
+  width:100%;
+}
+
+
+/* Screens Bigger than value */
+@media (min-width: 767px){
+  .span4{
+    width: 30%;
+  }
+}
+
 
 
 .page p{
@@ -366,6 +381,10 @@ div.parallax-slider.zoom-fade-eff {
 }
 .page .woocommerce {
   padding-left: 30px !important;
+}
+
+.motopress-wrapper.content-holder .container{
+  min-height: 350px;
 }
 
 
@@ -486,9 +505,6 @@ ul.products.list li.product .gridlist-buttonwrap{
 
 /* Screens greater than value */
 @media(min-width: 1120px){
-  .page.post-45 .motopress-wrapper.content-holder {
-    /*padding-right: 45px;*/
-  }
   .menu_list {
     padding-right: 50px;
   }
@@ -711,6 +727,9 @@ h4.category_heading{
 .banquets h4{
   font-size: 1.3em;
 }
+.additional-pictures {
+  margin-bottom: 40px;  
+}
 .additional-pictures .span4 {
   text-align: center;
 }
@@ -727,6 +746,9 @@ a img.aligncenter{
 }
 
 /* Product details */
+.woocommerce{
+  margin-bottom: 40px;
+}
 .woocommerce div.product{
   padding-left: 30px;
 }
@@ -837,6 +859,9 @@ body #motopress-main.main-holder #content .page form table.cart .actions #coupon
 }
 .map p{
   padding-top: 20px;
+}
+.span6.map {
+  margin-bottom: 50px;
 }
 
 
