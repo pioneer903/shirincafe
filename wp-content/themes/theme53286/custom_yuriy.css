@@ -321,17 +321,32 @@ li#menu-item-54:hover {
 
 /* Navigation: Shopping cart */
 /*.menu-item.menu-item-type-post_type.menu-item-object-page*/
+
 .page-id-45 li#menu-item-68 {
+  position: relative;
+  top: -205px;  
   text-indent: 0;
-  left: 260px;
-  top: -205px;
   padding-top: 12px;
+  right: -160px;
+  
 }
+
 .page-id-45 li#menu-item-68 i{
   font-size: 1.4em;
 }
+/* Grater than value */
+@media(min-width: 1200px){
+ .page-id-45 li#menu-item-68 {
+    right: -253px;
+  }
+}
 
-
+/* Smaller than value */
+@media(max-width: 979px){
+ .page-id-45 li#menu-item-68 {
+    /*right: -265px;*/
+  }
+}
 
 
 
