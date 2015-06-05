@@ -688,7 +688,8 @@ h4.category_heading{
     /*padding-right: 40px;*/
   }
 
-  body #motopress-main.main-holder .content-holder ul.products li.product >a img[class*="attachment"]{
+  body #motopress-main.main-holder .content-holder ul.products li.product >a img[class*="attachment"],
+  .woocommerce-placeholder.wp-post-image{
     width: 153px !important;
     float: left;
     padding-right: 20px;
@@ -696,6 +697,7 @@ h4.category_heading{
   }
 
   body #motopress-main.main-holder .content-holder ul.products li.product .short_desc {
+    text-transform: capitalize;
     display: block;
     width: 19%;
     top: 50px;
