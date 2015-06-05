@@ -581,6 +581,8 @@ ul.products.list li.product .gridlist-buttonwrap{
 }
 
 
+
+
 .fa-shopping-cart{
   color: #f2ce87;
 }
@@ -624,6 +626,10 @@ ul.products.list li.product .gridlist-buttonwrap{
 h4.category_heading{
   font-size: 1.5em;
   color: #ffffcc;
+}
+
+.drinks-desserts h5 span{
+  
 }
 
 
