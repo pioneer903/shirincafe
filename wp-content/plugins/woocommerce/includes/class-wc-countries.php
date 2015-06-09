@@ -301,7 +301,7 @@ class WC_Countries {
 	 * @return string
 	 */
 	public function ex_tax_or_vat() {
-		$return = in_array( $this->get_base_country(), $this->get_european_union_countries( 'eu_vat' ) ) ? __( '(ex. VAT)', 'woocommerce' ) : __( '(ex. tax)', 'woocommerce' );
+		$return = in_array( $this->get_base_country(), $this->get_european_union_countries( 'eu_vat' ) ) ? __( '(ex. VAT)', 'woocommerce' ) : __( '', 'woocommerce' );
 
 		return apply_filters( 'woocommerce_countries_ex_tax_or_vat', $return );
 	}

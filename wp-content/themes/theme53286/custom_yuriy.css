@@ -628,8 +628,41 @@ h4.category_heading{
   color: #ffffcc;
 }
 
-.drinks-desserts h5 span{
-  
+/* Drinks and desserts */
+.drinks-desserts h5,
+.drinks-desserts .price {
+  font-size: 1.5em;
+  color: #ffffcc;
+}
+.drinks-desserts ul{
+  margin-left: 0px;
+  list-style: none;
+}
+
+.drinks-desserts .span3{
+  width: 18%;
+}
+.drinks-desserts .span2{
+  width: 7%;
+}
+@media(max-width: 1024px){
+  .drinks-desserts .span3{
+    width: 15%;
+  }
+}
+
+@media(max-width: 767px){
+  .drinks-desserts .span3{
+    width: 0%;
+  }
+  .drinks-desserts .span7{
+    width: 85%;
+    display: inline-table;
+  }
+  .drinks-desserts .span2{
+    width: 7%;
+    display: inline-table;
+  }
 }
 
 
@@ -828,6 +861,9 @@ body #motopress-main.main-holder .woocommerce-message a.button{
 .title-header{
   color: #f2ce87;
   display: none;
+}
+.motopress-wrapper.content-holder.clearfix.woocommerce .title-header{
+  display: block;
 }
 
 /* Hide Add to wishlist button */
