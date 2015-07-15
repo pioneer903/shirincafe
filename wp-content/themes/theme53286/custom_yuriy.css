@@ -728,7 +728,8 @@ h4.category_heading{
   }
 
   body #motopress-main.main-holder .content-holder ul.products li.product >a img[class*="attachment"],
-  .woocommerce-placeholder.wp-post-image{
+  .woocommerce-placeholder.wp-post-image,
+  body #motopress-main.main-holder .content-holder ul.products li.product >a img.woocommerce-placeholder{
     width: 153px !important;
     float: left;
     padding-right: 20px;
