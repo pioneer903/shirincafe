@@ -574,8 +574,8 @@ ul.products.list li.product .gridlist-buttonwrap{
     padding: 20px;
   }
   .menu_navigation a {
-    font-size: 2em;
-    padding: 10px;
+    font-size: 1.5em;
+    padding: 10px 0;
     border-bottom: 1px solid;
   }
 }
