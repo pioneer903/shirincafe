@@ -1,0 +1,398 @@
+0000.002 (0) Opened log file at time: Thu, 09 Jul 2015 00:21:42 +0000 on http://localhost/shirincafe
+0000.009 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.1.5 PHP: 5.5.15 (Darwin Yuriys-Air 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64) MySQL: 5.6.20 Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.4M | 35.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 19585.8 Mb
+0000.016 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.017 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.024 (0) Requesting semaphore lock (fd)
+0000.025 (0) Semaphore (fd) was stuck, set lock time to 2015-07-09 00:21:42
+0000.029 (0) Semaphore (fd) reset to 1
+0000.030 (0) Set semaphore last lock (fd) time to 2015-07-09 00:21:42
+0000.030 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=24a7c12fce0f, begun at=1436401302 (0s ago), job type=backup
+0000.036 (0) Scheduling a resumption (1) after 300 seconds (1436401602) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.052 (0) Testing: /usr/bin/zip
+0000.114 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.115 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.116 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.117 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.117 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.125 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.127 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.138 (0) Working binary zip found: /usr/bin/zip
+0000.140 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.141 (0) Creation of backups of directories: beginning
+0000.144 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0000.485 (0) Total entities for the zip file: 666 directories, 3568 files (0 skipped as non-modified), 47.6 Mb
+0000.488 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.490 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.493 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.495 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.498 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 Mb, 3568 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0001.055 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: size is now: 2.90 Mb
+0001.060 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 600 files added (on-disk size: 2961.2 Kb)
+0001.062 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 700 files added (on-disk size: 2961.2 Kb)
+0001.065 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 800 files added (on-disk size: 2961.2 Kb)
+0001.067 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 900 files added (on-disk size: 2961.2 Kb)
+0001.069 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1000 files added (on-disk size: 2961.2 Kb)
+0001.070 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 Mb, 3568 files batched, 501 (1002) added so far); re-opening (prior size: 2961.2 Kb)
+0001.605 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: size is now: 5.70 Mb
+0001.610 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1100 files added (on-disk size: 5834.9 Kb)
+0001.613 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1200 files added (on-disk size: 5834.9 Kb)
+0001.615 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1300 files added (on-disk size: 5834.9 Kb)
+0001.618 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1400 files added (on-disk size: 5834.9 Kb)
+0001.620 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1500 files added (on-disk size: 5834.9 Kb)
+0001.621 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 Mb, 3568 files batched, 501 (1503) added so far); re-opening (prior size: 5834.9 Kb)
+0002.320 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: size is now: 9.20 Mb
+0002.328 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1600 files added (on-disk size: 9431.2 Kb)
+0002.331 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1700 files added (on-disk size: 9431.2 Kb)
+0002.334 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1800 files added (on-disk size: 9431.2 Kb)
+0002.336 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 1900 files added (on-disk size: 9431.2 Kb)
+0002.339 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2000 files added (on-disk size: 9431.2 Kb)
+0002.340 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12 Mb, 3568 files batched, 501 (2004) added so far); re-opening (prior size: 9431.2 Kb)
+0003.527 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: size is now: 12.70 Mb
+0003.536 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2100 files added (on-disk size: 13034.7 Kb)
+0003.538 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2200 files added (on-disk size: 13034.7 Kb)
+0003.541 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2300 files added (on-disk size: 13034.7 Kb)
+0003.543 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2400 files added (on-disk size: 13034.7 Kb)
+0003.546 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2500 files added (on-disk size: 13034.7 Kb)
+0003.547 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 Mb, 3568 files batched, 501 (2505) added so far); re-opening (prior size: 13034.7 Kb)
+0004.008 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2600 files added (on-disk size: 13925.2 Kb)
+0004.011 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2700 files added (on-disk size: 13925.2 Kb)
+0004.014 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2800 files added (on-disk size: 13925.2 Kb)
+0004.016 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 2900 files added (on-disk size: 13925.2 Kb)
+0004.018 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3000 files added (on-disk size: 13925.2 Kb)
+0004.019 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 Mb, 3568 files batched, 501 (3006) added so far); re-opening (prior size: 13925.2 Kb)
+0004.618 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3100 files added (on-disk size: 15407.1 Kb)
+0004.622 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3200 files added (on-disk size: 15407.1 Kb)
+0004.626 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3300 files added (on-disk size: 15407.1 Kb)
+0004.629 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3400 files added (on-disk size: 15407.1 Kb)
+0004.633 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: 3500 files added (on-disk size: 15407.1 Kb)
+0004.634 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 Mb, 3568 files batched, 501 (3507) added so far); re-opening (prior size: 15407.1 Kb)
+0005.610 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip.tmp: size is now: 20.70 Mb
+0005.913 (0) Created plugins zip (0) - 21828.8 Kb in 5.8 s (3784.9 Kb/s) (SHA1 checksum: 39ab9e8a2de99a8606ce9d94de9b1d1b71880f5e)
+0005.915 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0005.972 (0) Total entities for the zip file: 68 directories, 590 files (0 skipped as non-modified), 12.5 Mb
+0005.975 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0005.977 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0005.979 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0005.982 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0005.984 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0005.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 Mb, 590 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0006.473 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: size is now: 4.10 Mb
+0006.765 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip.tmp: size is now: 8.00 Mb
+0006.798 (0) Created themes zip (0) - 8241.6 Kb in 0.9 s (9340.3 Kb/s) (SHA1 checksum: fd70b2251f175799fde8e3f1651642009f4f0b81)
+0006.800 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0006.801 (0) Looking for candidates to back up in: /Applications/XAMPP/xamppfiles/htdocs/shirincafe/wp-content/uploads
+0006.802 (0) finding files: 2015: adding to list (1)
+0006.802 (0) finding files: motopress-content-editor: adding to list (2)
+0006.803 (0) finding files: wc-logs: adding to list (3)
+0006.803 (0) finding files: woocommerce_uploads: adding to list (4)
+0006.804 (0) finding files: wp-image-slider-with-lightbox: adding to list (5)
+0006.804 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0006.870 (0) Total entities for the zip file: 10 directories, 718 files (0 skipped as non-modified), 32.8 Mb
+0006.872 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0006.874 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0006.876 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0006.878 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0006.880 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0006.882 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.7 Mb, 718 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0008.295 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: size is now: 18.00 Mb
+0008.303 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 600 files added (on-disk size: 18473.7 Kb)
+0008.307 (0) Zip: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: 700 files added (on-disk size: 18473.7 Kb)
+0009.450 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip.tmp: size is now: 32.00 Mb
+0009.594 (0) Created uploads zip (0) - 32734.8 Kb in 2.8 s (11740.7 Kb/s) (SHA1 checksum: c3163db057b2496ae74a31d6c35a0632c3c8fb68)
+0009.596 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.597 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0009.597 (0) Looking for candidates to back up in: /Applications/XAMPP/xamppfiles/htdocs/shirincafe/wp-content
+0009.598 (0) finding files: gallery-bank: adding to list (1)
+0009.599 (0) finding files: index.php: adding to list (2)
+0009.599 (0) finding files: languages: adding to list (3)
+0009.600 (0) finding files: mu-plugins: adding to list (4)
+0009.600 (0) finding files: plugins: skipping: this is the plugins directory
+0009.601 (0) finding files: themes: skipping: this is the themes directory
+0009.601 (0) finding files: updraft: skipping: this is the updraft directory
+0009.602 (0) finding files: upgrade: skipping: excluded by options
+0009.602 (0) finding files: uploads: skipping: this is the uploads directory
+0009.612 (0) Total entities for the zip file: 8 directories, 58 files (0 skipped as non-modified), 8.1 Mb
+0010.145 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip.tmp: size is now: 7.10 Mb
+0010.182 (0) Created others zip (0) - 7232.7 Kb in 0.6 s (12501 Kb/s) (SHA1 checksum: afb27be8c3731bf9a8293e8d661f62ef894adc78)
+0010.186 (0) Saving backup status to database (elements: 8)
+0010.189 (0) Beginning creation of database dump (WordPress DB)
+0010.194 (0) Testing: /usr/local/bin/mysqldump
+0010.287 (0) Binary mysqldump: error (code: 2)
+0010.304 (0) Table wp_options: Total expected rows (approximate): 804
+0010.349 (0) Table wp_options: Total rows added: 803 in 0.04 seconds
+0010.350 (0) Table wp_options: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_options.table.gz - 82.5 Kb)
+0010.353 (0) Table wp_users: Total expected rows (approximate): 2
+0010.356 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0010.357 (0) Table wp_users: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_users.table.gz - 0.6 Kb)
+0010.361 (0) Table wp_usermeta: Total expected rows (approximate): 67
+0010.366 (0) Table wp_usermeta: Total rows added: 67 in 0.00 seconds
+0010.368 (0) Table wp_usermeta: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_usermeta.table.gz - 1.9 Kb)
+0010.371 (0) Table wp_commentmeta: Total expected rows (approximate): 38
+0010.375 (0) Table wp_commentmeta: Total rows added: 38 in 0.00 seconds
+0010.376 (0) Table wp_commentmeta: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_commentmeta.table.gz - 0.5 Kb)
+0010.379 (0) Table wp_comments: Total expected rows (approximate): 39
+0010.385 (0) Table wp_comments: Total rows added: 39 in 0.01 seconds
+0010.387 (0) Table wp_comments: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_comments.table.gz - 1.5 Kb)
+0010.394 (0) Table wp_links: Total expected rows (approximate): 0
+0010.397 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0010.398 (0) Table wp_links: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_links.table.gz - 0.4 Kb)
+0010.401 (0) Table wp_postmeta: Total expected rows (approximate): 1680
+0010.438 (0) Table wp_postmeta: Total rows added: 1680 in 0.04 seconds
+0010.440 (0) Table wp_postmeta: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_postmeta.table.gz - 22.4 Kb)
+0010.443 (0) Table wp_posts: Total expected rows (approximate): 361
+0010.497 (0) Table wp_posts: Total rows added: 361 in 0.05 seconds
+0010.498 (0) Table wp_posts: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_posts.table.gz - 31.2 Kb)
+0010.501 (0) Table wp_term_relationships: Total expected rows (approximate): 62
+0010.506 (0) Table wp_term_relationships: Total rows added: 62 in 0.00 seconds
+0010.507 (0) Table wp_term_relationships: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_term_relationships.table.gz - 0.5 Kb)
+0010.510 (0) Table wp_term_taxonomy: Total expected rows (approximate): 24
+0010.514 (0) Table wp_term_taxonomy: Total rows added: 24 in 0.00 seconds
+0010.515 (0) Table wp_term_taxonomy: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_term_taxonomy.table.gz - 0.6 Kb)
+0010.527 (0) Table wp_terms: Total expected rows (approximate): 17
+0010.531 (0) Table wp_terms: Total rows added: 17 in 0.00 seconds
+0010.532 (0) Table wp_terms: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_terms.table.gz - 0.6 Kb)
+0010.536 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 591
+0010.549 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 591 in 0.01 seconds
+0010.550 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_order_itemmeta.table.gz - 4.3 Kb)
+0010.555 (0) Table wp_woocommerce_termmeta: Total expected rows (approximate): 33
+0010.560 (0) Table wp_woocommerce_termmeta: Total rows added: 33 in 0.00 seconds
+0010.561 (0) Table wp_woocommerce_termmeta: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_termmeta.table.gz - 0.6 Kb)
+0010.565 (0) Table wp_gallery_albums: Total expected rows (approximate): 2
+0010.568 (0) Table wp_gallery_albums: Total rows added: 2 in 0.00 seconds
+0010.569 (0) Table wp_gallery_albums: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_albums.table.gz - 0.5 Kb)
+0010.574 (0) Table wp_gallery_pics: Total expected rows (approximate): 20
+0010.579 (0) Table wp_gallery_pics: Total rows added: 20 in 0.00 seconds
+0010.580 (0) Table wp_gallery_pics: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_pics.table.gz - 0.9 Kb)
+0010.587 (0) Table wp_gallery_settings: Total expected rows (approximate): 78
+0010.591 (0) Table wp_gallery_settings: Total rows added: 78 in 0.00 seconds
+0010.592 (0) Table wp_gallery_settings: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_settings.table.gz - 1.1 Kb)
+0010.598 (0) Table wp_huge_itslider_images: Total expected rows (approximate): 35
+0010.604 (0) Table wp_huge_itslider_images: Total rows added: 35 in 0.00 seconds
+0010.605 (0) Table wp_huge_itslider_images: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_images.table.gz - 0.9 Kb)
+0010.612 (0) Table wp_huge_itslider_params: Total expected rows (approximate): 38
+0010.619 (0) Table wp_huge_itslider_params: Total rows added: 38 in 0.01 seconds
+0010.621 (0) Table wp_huge_itslider_params: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_params.table.gz - 1 Kb)
+0010.626 (0) Table wp_huge_itslider_sliders: Total expected rows (approximate): 1
+0010.630 (0) Table wp_huge_itslider_sliders: Total rows added: 1 in 0.00 seconds
+0010.631 (0) Table wp_huge_itslider_sliders: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_sliders.table.gz - 0.5 Kb)
+0010.636 (0) Table wp_hugeit_lightbox: Total expected rows (approximate): 55
+0010.640 (0) Table wp_hugeit_lightbox: Total rows added: 55 in 0.00 seconds
+0010.643 (0) Table wp_hugeit_lightbox: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_hugeit_lightbox.table.gz - 1.1 Kb)
+0010.649 (0) Table wp_responsive_slider_plus_responsive_lightbox: Total expected rows (approximate): 5
+0010.663 (0) Table wp_responsive_slider_plus_responsive_lightbox: Total rows added: 5 in 0.01 seconds
+0010.665 (0) Table wp_responsive_slider_plus_responsive_lightbox: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_responsive_slider_plus_responsive_lightbox.table.gz - 0.6 Kb)
+0010.673 (0) Table wp_wonderplugin_slider: Total expected rows (approximate): 1
+0010.677 (0) Table wp_wonderplugin_slider: Total rows added: 1 in 0.00 seconds
+0010.679 (0) Table wp_wonderplugin_slider: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_wonderplugin_slider.table.gz - 1.3 Kb)
+0010.685 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0010.688 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0010.689 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.3 Kb)
+0010.695 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0010.699 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0010.700 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.4 Kb)
+0010.704 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 73
+0010.709 (0) Table wp_woocommerce_order_items: Total rows added: 73 in 0.00 seconds
+0010.710 (0) Table wp_woocommerce_order_items: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_order_items.table.gz - 0.9 Kb)
+0010.714 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 2
+0010.718 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 2 in 0.00 seconds
+0010.718 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 Kb)
+0010.725 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 2
+0010.729 (0) Table wp_woocommerce_tax_rates: Total rows added: 2 in 0.00 seconds
+0010.730 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_tax_rates.table.gz - 0.5 Kb)
+0010.736 (0) Table wp_yith_wcwl: Total expected rows (approximate): 0
+0010.740 (0) Table wp_yith_wcwl: Total rows added: 0 in 0.00 seconds
+0010.742 (0) Table wp_yith_wcwl: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_yith_wcwl.table.gz - 0.3 Kb)
+0010.750 (0) Table wp_yith_wcwl_lists: Total expected rows (approximate): 0
+0010.753 (0) Table wp_yith_wcwl_lists: Total rows added: 0 in 0.00 seconds
+0010.754 (0) Table wp_yith_wcwl_lists: finishing file (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_yith_wcwl_lists.table.gz - 0.4 Kb)
+0010.757 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_options.table.gz (1/29): adding to final database dump
+0010.782 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_users.table.gz (2/29): adding to final database dump
+0010.783 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_usermeta.table.gz (3/29): adding to final database dump
+0010.784 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_commentmeta.table.gz (4/29): adding to final database dump
+0010.785 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_comments.table.gz (5/29): adding to final database dump
+0010.786 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_links.table.gz (6/29): adding to final database dump
+0010.787 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_postmeta.table.gz (7/29): adding to final database dump
+0010.796 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_posts.table.gz (8/29): adding to final database dump
+0010.807 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_term_relationships.table.gz (9/29): adding to final database dump
+0010.808 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_term_taxonomy.table.gz (10/29): adding to final database dump
+0010.809 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_terms.table.gz (11/29): adding to final database dump
+0010.810 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_order_itemmeta.table.gz (12/29): adding to final database dump
+0010.813 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_termmeta.table.gz (13/29): adding to final database dump
+0010.814 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_albums.table.gz (14/29): adding to final database dump
+0010.814 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_pics.table.gz (15/29): adding to final database dump
+0010.815 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_gallery_settings.table.gz (16/29): adding to final database dump
+0010.817 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_images.table.gz (17/29): adding to final database dump
+0010.818 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_params.table.gz (18/29): adding to final database dump
+0010.819 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_huge_itslider_sliders.table.gz (19/29): adding to final database dump
+0010.820 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_hugeit_lightbox.table.gz (20/29): adding to final database dump
+0010.822 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_responsive_slider_plus_responsive_lightbox.table.gz (21/29): adding to final database dump
+0010.823 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_wonderplugin_slider.table.gz (22/29): adding to final database dump
+0010.823 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_attribute_taxonomies.table.gz (23/29): adding to final database dump
+0010.824 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (24/29): adding to final database dump
+0010.826 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_order_items.table.gz (25/29): adding to final database dump
+0010.827 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_tax_rate_locations.table.gz (26/29): adding to final database dump
+0010.827 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_woocommerce_tax_rates.table.gz (27/29): adding to final database dump
+0010.828 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_yith_wcwl.table.gz (28/29): adding to final database dump
+0010.829 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db-table-wp_yith_wcwl_lists.table.gz (29/29): adding to final database dump
+0010.831 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz: finished writing out complete database file (128 Kb)
+0010.837 (0) Total database tables backed up: 29 (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz, size: 155802, checksum (SHA1): 4662a36ba9126ad49a4074b1d72dbfdfe954449d)
+0010.839 (0) Saving backup history
+0010.843 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.844 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.844 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.845 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.846 (0) backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.848 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.850 (0) Cloud backup selection (1/1): dropbox (last)
+0010.850 (0) Beginning dispatch of backup to remote (dropbox)
+0010.851 (0) Dropbox: begin cloud upload
+0010.863 (0) Dropbox: access gained
+0011.565 (0) Dropbox quota usage: normal=224.3 Mb, shared=0 Mb, total=2560 Mb, available=2335.7 Mb
+0011.566 (0) Dropbox: Attempt to upload: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip to: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip
+0013.612 (0) Dropbox chunked upload: 4.7 % uploaded (knyiVaceX99eCmT6b5RSLA, 1048576)
+0015.761 (0) Dropbox chunked upload: 9.4 % uploaded (knyiVaceX99eCmT6b5RSLA, 2097152)
+0018.255 (0) Dropbox chunked upload: 14.1 % uploaded (knyiVaceX99eCmT6b5RSLA, 3145728)
+0024.056 (0) Dropbox chunked upload: 18.8 % uploaded (knyiVaceX99eCmT6b5RSLA, 4194304)
+0025.900 (0) Dropbox chunked upload: 23.5 % uploaded (knyiVaceX99eCmT6b5RSLA, 5242880)
+0027.742 (0) Dropbox chunked upload: 28.1 % uploaded (knyiVaceX99eCmT6b5RSLA, 6291456)
+0029.903 (0) Dropbox chunked upload: 32.8 % uploaded (knyiVaceX99eCmT6b5RSLA, 7340032)
+0033.507 (0) Dropbox chunked upload: 37.5 % uploaded (knyiVaceX99eCmT6b5RSLA, 8388608)
+0037.568 (0) Dropbox chunked upload: 42.2 % uploaded (knyiVaceX99eCmT6b5RSLA, 9437184)
+0042.080 (0) Dropbox chunked upload: 46.9 % uploaded (knyiVaceX99eCmT6b5RSLA, 10485760)
+0044.639 (0) Dropbox chunked upload: 51.6 % uploaded (knyiVaceX99eCmT6b5RSLA, 11534336)
+0047.333 (0) Dropbox chunked upload: 56.3 % uploaded (knyiVaceX99eCmT6b5RSLA, 12582912)
+0051.704 (0) Dropbox chunked upload: 61 % uploaded (knyiVaceX99eCmT6b5RSLA, 13631488)
+0053.938 (0) Dropbox chunked upload: 65.7 % uploaded (knyiVaceX99eCmT6b5RSLA, 14680064)
+0060.250 (0) Dropbox chunked upload: 70.4 % uploaded (knyiVaceX99eCmT6b5RSLA, 15728640)
+0068.497 (0) Dropbox chunked upload: 75.1 % uploaded (knyiVaceX99eCmT6b5RSLA, 16777216)
+0070.441 (0) Dropbox chunked upload: 79.7 % uploaded (knyiVaceX99eCmT6b5RSLA, 17825792)
+0072.286 (0) Dropbox chunked upload: 84.4 % uploaded (knyiVaceX99eCmT6b5RSLA, 18874368)
+0074.841 (0) Dropbox chunked upload: 89.1 % uploaded (knyiVaceX99eCmT6b5RSLA, 19922944)
+0080.330 (0) Dropbox chunked upload: 93.8 % uploaded (knyiVaceX99eCmT6b5RSLA, 20971520)
+0082.119 (0) Dropbox chunked upload: 98.5 % uploaded (knyiVaceX99eCmT6b5RSLA, 22020096)
+0083.653 (0) Dropbox chunked upload: 100 % uploaded (knyiVaceX99eCmT6b5RSLA, 22352740)
+0085.491 (0) Recording as successfully uploaded: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip (399d2c4fa22b2a5c7d6d13988cf9a604)
+0085.496 (0) Deleting local file: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip: OK
+0085.497 (0) Dropbox: File upload success (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-plugins.zip): 21828 Kb in 73s (295 Kb/s)
+0086.086 (0) Dropbox quota usage: normal=245.6 Mb, shared=0 Mb, total=2560 Mb, available=2314.4 Mb
+0086.087 (0) Dropbox: Attempt to upload: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip to: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip
+0088.610 (0) Dropbox chunked upload: 12.4 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 1048576)
+0093.175 (0) Dropbox chunked upload: 24.8 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 2097152)
+0095.940 (0) Dropbox chunked upload: 37.3 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 3145728)
+0100.138 (0) Dropbox chunked upload: 49.7 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 4194304)
+0102.249 (0) Dropbox chunked upload: 62.1 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 5242880)
+0107.613 (0) Dropbox chunked upload: 74.5 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 6291456)
+0109.764 (0) Dropbox chunked upload: 87 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 7340032)
+0113.451 (0) Dropbox chunked upload: 99.4 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 8388608)
+0114.373 (0) Dropbox chunked upload: 100 % uploaded (mYnJlDrnb6nXFa3AZILZxw, 8439444)
+0115.551 (0) Recording as successfully uploaded: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip (76e44741485588e8e07007ae8c49c4d1)
+0115.555 (0) Deleting local file: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip: OK
+0115.556 (0) Dropbox: File upload success (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-themes.zip): 8241 Kb in 29s (279 Kb/s)
+0116.256 (0) Dropbox quota usage: normal=253.6 Mb, shared=0 Mb, total=2560 Mb, available=2306.4 Mb
+0116.257 (0) Dropbox: Attempt to upload: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip to: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip
+0121.019 (0) Dropbox chunked upload: 3.1 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 1048576)
+0123.281 (0) Dropbox chunked upload: 6.3 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 2097152)
+0125.739 (0) Dropbox chunked upload: 9.4 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 3145728)
+0128.510 (0) Dropbox chunked upload: 12.5 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 4194304)
+0130.038 (0) Dropbox chunked upload: 15.6 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 5242880)
+0137.109 (0) Dropbox chunked upload: 18.8 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 6291456)
+0139.255 (0) Dropbox chunked upload: 21.9 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 7340032)
+0143.895 (0) Dropbox chunked upload: 25 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 8388608)
+0148.471 (0) Dropbox chunked upload: 28.2 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 9437184)
+0151.236 (0) Dropbox chunked upload: 31.3 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 10485760)
+0153.510 (0) Dropbox chunked upload: 34.4 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 11534336)
+0157.073 (0) Dropbox chunked upload: 37.5 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 12582912)
+0158.798 (0) Dropbox chunked upload: 40.7 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 13631488)
+0163.113 (0) Dropbox chunked upload: 43.8 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 14680064)
+0165.675 (0) Dropbox chunked upload: 46.9 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 15728640)
+0169.866 (0) Dropbox chunked upload: 50.1 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 16777216)
+0171.204 (0) Dropbox chunked upload: 53.2 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 17825792)
+0172.709 (0) Dropbox chunked upload: 56.3 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 18874368)
+0177.040 (0) Dropbox chunked upload: 59.4 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 19922944)
+0180.419 (0) Dropbox chunked upload: 62.6 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 20971520)
+0181.978 (0) Dropbox chunked upload: 65.7 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 22020096)
+0183.758 (0) Dropbox chunked upload: 68.8 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 23068672)
+0185.737 (0) Dropbox chunked upload: 71.9 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 24117248)
+0190.862 (0) Dropbox chunked upload: 75.1 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 25165824)
+0192.095 (0) Dropbox chunked upload: 78.2 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 26214400)
+0193.787 (0) Dropbox chunked upload: 81.3 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 27262976)
+0196.395 (0) Dropbox chunked upload: 84.5 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 28311552)
+0199.466 (0) Dropbox chunked upload: 87.6 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 29360128)
+0201.803 (0) Dropbox chunked upload: 90.7 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 30408704)
+0205.301 (0) Dropbox chunked upload: 93.8 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 31457280)
+0207.147 (0) Dropbox chunked upload: 97 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 32505856)
+0209.604 (0) Dropbox chunked upload: 100 % uploaded (XMIYkrdXTdE-iEnBYQ0Sfg, 33520410)
+0211.850 (0) Recording as successfully uploaded: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip (5f9576702386c3f07c41bd92adc46f9f)
+0211.865 (0) Deleting local file: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip: OK
+0211.866 (0) Dropbox: File upload success (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-uploads.zip): 32734 Kb in 95s (342 Kb/s)
+0212.493 (0) Dropbox quota usage: normal=285.6 Mb, shared=0 Mb, total=2560 Mb, available=2274.4 Mb
+0212.494 (0) Dropbox: Attempt to upload: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip to: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip
+0214.462 (0) Dropbox chunked upload: 14.2 % uploaded (xeHwECojON2Qi9W0dN1fFA, 1048576)
+0219.127 (0) Dropbox chunked upload: 28.3 % uploaded (xeHwECojON2Qi9W0dN1fFA, 2097152)
+0221.584 (0) Dropbox chunked upload: 42.5 % uploaded (xeHwECojON2Qi9W0dN1fFA, 3145728)
+0224.963 (0) Dropbox chunked upload: 56.6 % uploaded (xeHwECojON2Qi9W0dN1fFA, 4194304)
+0226.831 (0) Dropbox chunked upload: 70.8 % uploaded (xeHwECojON2Qi9W0dN1fFA, 5242880)
+0228.255 (0) Dropbox chunked upload: 84.9 % uploaded (xeHwECojON2Qi9W0dN1fFA, 6291456)
+0232.985 (0) Dropbox chunked upload: 99.1 % uploaded (xeHwECojON2Qi9W0dN1fFA, 7340032)
+0235.099 (0) Dropbox chunked upload: 100 % uploaded (xeHwECojON2Qi9W0dN1fFA, 7406257)
+0237.616 (0) Recording as successfully uploaded: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip (5d2cf3f4279a4e75d83c7ab6dd31d548)
+0237.620 (0) Deleting local file: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip: OK
+0237.621 (0) Dropbox: File upload success (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-others.zip): 7232 Kb in 25s (287 Kb/s)
+0238.220 (0) Dropbox quota usage: normal=292.7 Mb, shared=0 Mb, total=2560 Mb, available=2267.3 Mb
+0238.221 (0) Dropbox: Attempt to upload: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz to: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz
+0241.411 (0) Dropbox chunked upload: 100 % uploaded (xYn7mZTW226QJqLw_-Ancg, 155802)
+0242.563 (0) Recording as successfully uploaded: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz (90bb758601cba7d1b649258d7ed1569c)
+0242.567 (0) Deleting local file: backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz: OK
+0242.568 (0) Dropbox: File upload success (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz): 152 Kb in 4s (34 Kb/s)
+0242.571 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0242.572 (0) Number of backup sets in history: 5
+0242.573 (0) Examining backup set with datestamp: 1436401302 (Jul 09 2015 00:21:42)
+0242.574 (0) 1436401302: db: this set includes a database (backup_2015-07-08-2021_Shirin_Cafe_24a7c12fce0f-db.gz); db count is now 1
+0242.575 (0) 1436401302: this backup set remains non-empty (1/1); will retain in history
+0242.576 (0) Examining backup set with datestamp: 1432637528 (May 26 2015 10:52:08)
+0242.577 (0) 1432637528: this backup set remains non-empty (1/0); will retain in history
+0242.578 (0) Examining backup set with datestamp: 1432330029 (May 22 2015 21:27:09)
+0242.579 (0) 1432330029: db: this set includes a database (backup_2015-05-22-1727_Shirin_Cafe_008dbc37943d-db.gz); db count is now 2
+0242.581 (0) 1432330029: this backup set remains non-empty (1/1); will retain in history
+0242.581 (0) Examining backup set with datestamp: 1432074605 (May 19 2015 22:30:05)
+0242.583 (0) 1432074605: db: this set includes a database (backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-db.gz); db count is now 3
+0242.583 (0) plugins: 1432074605: over retain limit (3); will delete this file (backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-plugins.zip)
+0242.584 (0) themes: 1432074605: over retain limit (3); will delete this file (backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-themes.zip)
+0242.585 (0) uploads: 1432074605: over retain limit (3); will delete this file (backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-uploads.zip)
+0242.585 (0) others: 1432074605: over retain limit (3); will delete this file (backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-others.zip)
+0242.586 (0) Delete file: backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-plugins.zip, service=dropbox
+0242.587 (0) Delete file: backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-themes.zip, service=dropbox
+0242.588 (0) Delete file: backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-uploads.zip, service=dropbox
+0242.588 (0) Delete file: backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-others.zip, service=dropbox
+0242.589 (0) Dropbox: request deletion: backup_2015-05-19-1830_Shirin_Cafe_5a26a120a25d-plugins.zip
+0243.686 (0) Dropbox error: Path '/backup_2015-05-19-1830_shirin_cafe_5a26a120a25d-plugins.zip' not found (line: 171, file: /Applications/XAMPP/xamppfiles/htdocs/shirincafe/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0243.688 (0) 1432074605: this backup set remains non-empty (0/1); will retain in history
+0243.689 (0) Examining backup set with datestamp: 1431731586 (May 15 2015 23:13:06)
+0243.689 (0) 1431731586: db: this set includes a database (backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-db.gz); db count is now 4
+0243.690 (0) 1431731586: db: over retain limit (3); will delete this database
+0243.691 (0) Delete file: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-db.gz, service=dropbox
+0243.692 (0) Dropbox: request deletion: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-db.gz
+0244.514 (0) Dropbox error: Path '/backup_2015-05-15-1913_shirin_cafe_193722d079d6-db.gz' not found (line: 171, file: /Applications/XAMPP/xamppfiles/htdocs/shirincafe/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0244.516 (0) plugins: 1431731586: over retain limit (3); will delete this file (backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-plugins.zip)
+0244.517 (0) themes: 1431731586: over retain limit (3); will delete this file (backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-themes.zip)
+0244.517 (0) uploads: 1431731586: over retain limit (3); will delete this file (backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-uploads.zip)
+0244.518 (0) others: 1431731586: over retain limit (3); will delete this file (backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-others.zip)
+0244.519 (0) Delete file: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-plugins.zip, service=dropbox
+0244.519 (0) Delete file: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-themes.zip, service=dropbox
+0244.520 (0) Delete file: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-uploads.zip, service=dropbox
+0244.521 (0) Delete file: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-others.zip, service=dropbox
+0244.522 (0) Dropbox: request deletion: backup_2015-05-15-1913_Shirin_Cafe_193722d079d6-plugins.zip
+0245.476 (0) Dropbox error: Path '/backup_2015-05-15-1913_shirin_cafe_193722d079d6-plugins.zip' not found (line: 171, file: /Applications/XAMPP/xamppfiles/htdocs/shirincafe/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0245.478 (0) 1431731586: this backup set is now empty; will remove from history
+0245.479 (0) 1431731586: corresponding log file not found - must have already been deleted
+0245.480 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0245.482 (0) Resume backup (24a7c12fce0f, 0): finish run
+0245.484 (0) Decremented the semaphore (fd) by 1
+0245.486 (0) Semaphore (fd) unlocked
+0245.487 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0245.491 (0) No email will/can be sent - the user has not configured an email address.
+0245.491 (0) The backup apparently succeeded and is now complete
