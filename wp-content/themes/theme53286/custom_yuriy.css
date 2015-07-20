@@ -744,7 +744,6 @@ h4.category_heading{
   }
 
   body #motopress-main.main-holder .content-holder ul.products li.product .short_desc {
-    text-transform: capitalize;
     display: block;
     width: 34%;
     top: 50px;
