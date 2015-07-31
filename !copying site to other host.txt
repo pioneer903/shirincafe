@@ -9,6 +9,16 @@ UPDATE wp_options SET option_value = replace(option_value, 'http://localhost/shi
 #UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://localhost/shirincafe', 'http://shirincafe.webbuha.com');
 
 
+IN custom_yuriy.css Search and replace http://localhost/shirincafe -> http://shirincafe.webbuha.com 
+
+Verify logo in Admin panel/Cherry Options
+
+
+Additional:
+Remove stars divider from menu page
+
+
+
 
 
 #From server to localhost
@@ -26,3 +36,8 @@ UPDATE `wp_options` SET `option_value` = replace(`option_value`, 'http://shirinc
 IN custom_yuriy.css Search and replace http://shirincafe.webbuha.com -> http://localhost/shirincafe
 
 Verify logo in Admin panel/Cherry Options
+
+
+
+
+

@@ -126,7 +126,7 @@ class WC_Shortcodes {
 		global $woocommerce_loop;
 
 		$atts = shortcode_atts( array(
-			'per_page' => '12',
+			'per_page' => '24',
 			'columns'  => '4',
 			'orderby'  => 'title',
 			'order'    => 'desc',
